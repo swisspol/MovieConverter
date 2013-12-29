@@ -1,0 +1,184 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2E06B4B186E8B9300CF14A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E06B4A186E8B9300CF14A7 /* Foundation.framework */; };
+		E2E06B4E186E8B9300CF14A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E06B4D186E8B9300CF14A7 /* main.m */; };
+		E2E06B5B186E915700CF14A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E06B5A186E915700CF14A7 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2E06B47186E8B9300CF14A7 /* MovieConverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MovieConverter; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2E06B4A186E8B9300CF14A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2E06B4D186E8B9300CF14A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2E06B5A186E915700CF14A7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2E06B44186E8B9300CF14A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E06B5B186E915700CF14A7 /* AVFoundation.framework in Frameworks */,
+				E2E06B4B186E8B9300CF14A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2E06B3E186E8B9300CF14A7 = {
+			isa = PBXGroup;
+			children = (
+				E2E06B4D186E8B9300CF14A7 /* main.m */,
+				E2E06B49186E8B9300CF14A7 /* Frameworks */,
+				E2E06B48186E8B9300CF14A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2E06B48186E8B9300CF14A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2E06B47186E8B9300CF14A7 /* MovieConverter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2E06B49186E8B9300CF14A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2E06B5A186E915700CF14A7 /* AVFoundation.framework */,
+				E2E06B4A186E8B9300CF14A7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2E06B46186E8B9300CF14A7 /* MovieConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2E06B55186E8B9300CF14A7 /* Build configuration list for PBXNativeTarget "MovieConverter" */;
+			buildPhases = (
+				E2E06B43186E8B9300CF14A7 /* Sources */,
+				E2E06B44186E8B9300CF14A7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieConverter;
+			productName = TEST;
+			productReference = E2E06B47186E8B9300CF14A7 /* MovieConverter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2E06B3F186E8B9300CF14A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = TEMP;
+			};
+			buildConfigurationList = E2E06B42186E8B9300CF14A7 /* Build configuration list for PBXProject "MovieConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2E06B3E186E8B9300CF14A7;
+			productRefGroup = E2E06B48186E8B9300CF14A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2E06B46186E8B9300CF14A7 /* MovieConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2E06B43186E8B9300CF14A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E06B4E186E8B9300CF14A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2E06B53186E8B9300CF14A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		E2E06B54186E8B9300CF14A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+		E2E06B56186E8B9300CF14A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = MovieConverter;
+			};
+			name = Debug;
+		};
+		E2E06B57186E8B9300CF14A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = MovieConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2E06B42186E8B9300CF14A7 /* Build configuration list for PBXProject "MovieConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E06B53186E8B9300CF14A7 /* Debug */,
+				E2E06B54186E8B9300CF14A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2E06B55186E8B9300CF14A7 /* Build configuration list for PBXNativeTarget "MovieConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2E06B56186E8B9300CF14A7 /* Debug */,
+				E2E06B57186E8B9300CF14A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2E06B3F186E8B9300CF14A7 /* Project object */;
+}
